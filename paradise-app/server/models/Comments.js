@@ -5,7 +5,7 @@ const commentSchema = new Schema(
     {
         textBody: {
             type: String,
-            maxlength: 200
+            maxlength: 280
         },
         textAuthor: {
             type: String,
