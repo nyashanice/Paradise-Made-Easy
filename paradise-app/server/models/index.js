@@ -1,5 +1,5 @@
 const Guest = require('./Guest');
-const Post = require(./Post);
+const Comment = require('./Comments');
 
 //export
-module.exports = { Guest, Post};
+module.exports = { Guest, Comment};
