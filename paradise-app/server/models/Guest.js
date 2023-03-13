@@ -22,13 +22,7 @@ const guestSchema = new Schema(
           phoneNumber: {
             type: String,
             maxlength: 20          
-        },
-        comments: [
-            {
-                type: Schema.Types.ObjectId,
-                ref: 'Comment'
-            }
-        ]
+        }
     }
 );
 
