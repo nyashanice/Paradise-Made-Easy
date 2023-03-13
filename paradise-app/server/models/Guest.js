@@ -16,19 +16,12 @@ const guestSchema = new Schema(
           },
           password: {
             type: String,
-            required: true,
             minlength: 5,
           },
           phoneNumber: {
             type: String,
             maxlength: 20          
-        },
-        comments: [
-            {
-                type: Schema.Types.ObjectId,
-                ref: 'Comment'
-            }
-        ]
+        }
     }
 );
 

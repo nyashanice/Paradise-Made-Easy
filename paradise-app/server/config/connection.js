@@ -2,7 +2,7 @@
 const { connect, connection } = require('mongoose');
 
 //connecting to the local host mongo server, and to the database name
-connect('mongodb://localhost:27017/paradise-made-easy-DB', {
+connect('mongodb://localhost:27017/paradise-Project-DB', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
